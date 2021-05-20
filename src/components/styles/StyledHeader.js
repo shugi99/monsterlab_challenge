@@ -30,22 +30,17 @@ export const StyledRMDBLogo = styled.img`
 `;
 
 export const StyledRMDBFave = styled.div`
-  background: #1c1c1c;
-  padding: 50px 20px;
-  box-sizing: border-box;
+  width: 150px;
+  margin-top: 25px;
   float: right;
-  font-size: 36px;
+  font-size: 32px;
   color: #fff;
-  .header-content {
-    max-width: 1280px;
-    min-height: 120px;
-    padding: 20px 0px;
-    margin: 0 auto;
-    box-sizing: border-box;
 
-    @media screen and (max-width: 500px) {
-      max-width: 1280px;
-      min-height: 0px;
-    }
+  @media screen and (max-width: 500px) {
+    display: inline-block;
+    width: 122px;
+    width: 80px;
+    margin-top: 10px;
+    font-size: 16px;
   }
 `;

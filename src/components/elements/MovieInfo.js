@@ -37,7 +37,7 @@ const MovieInfo = ({movie}) => {
 
           <div className='rating-director'>
             <div>
-              <h3>IMDB RATING</h3>
+              <h3>RATING</h3>
               <div className='score'>{movie.vote_average}</div>
             </div>
             {favouriteMovies ? (
